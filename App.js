@@ -15,7 +15,7 @@ const asyncCheckout = asyncComponent(() => {
 const asyncOrders = asyncComponent(() => {
   return import("./containers/Orders/Orders");
 })
-a
+
 const asyncAuth = asyncComponent(() => {
   return import("./containers/Auth/Auth");
 })
